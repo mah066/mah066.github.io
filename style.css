@@ -1,0 +1,54 @@
+<style type="text/css">
+body{
+    color:black;
+    border: 5px black solid;
+    padding: 10px 10px;
+    margin: 15px 15px;
+   
+}
+#main-header{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+
+}
+.second-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+
+}
+.main-table{
+    width:80%
+    
+}
+.second-table{
+    width:50%
+}
+.main-table td{
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+.project-description{
+    width:70%;
+}
+.project-image{
+    width: 30%;
+}
+iframe{
+    width:80%
+    height:auto;
+}
+.news-tag{
+    background-color: blueviolet;
+    position:absolute;
+    padding:5px 5px;
+    left:10%;
+    transform: rotate(-45deg);
+}
+</style>
